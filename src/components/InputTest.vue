@@ -10,8 +10,15 @@ export default {
   name: "inputTest",
   data() {
     return {
-      header: "Here's some Vue data!"
+      header: "Edit the text box to change this!"
     };
   }
 };
 </script>
+
+<style scoped>
+input {
+  width: 80%;
+  max-width: 300px;
+}
+</style>
