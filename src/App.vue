@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <img width="25%" src="./assets/logo.png">
+    <hr>
     <InputTest/>
+    <hr>
     <HelloWorld/>
   </div>
 </template>
